@@ -1,0 +1,349 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+ul {
+  margin: 0%;
+}
+address {
+  font-style: normal;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+}
+a {
+  color: currentColor;
+}
+button {
+  cursor: pointer;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.img {
+  display: block;
+}
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 2px solid green;
+}
+:root {
+  --basic-color: #2196f3;
+  --color-paragraph: #757575;
+  --color-heading: #212121;
+}
+.section-size {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.header > .container {
+  display: flex;
+  align-items: center;
+}
+.header {
+  background: #ffffff;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+  color: #2196f3;
+  margin-right: 93px;
+}
+.logo > span {
+  color: #000000;
+}
+.header-list {
+  display: flex;
+  gap: 50px;
+}
+.header-item:not:last-child {
+  margin-right: 50px;
+}
+.header-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  display: inline-block;
+  padding: 10px;
+  color: var(--color-heading);
+  
+}
+.header-link:not:last-child {margin-right: 50px;}
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--basic-color);
+}
+.header-connect {
+  margin-left: auto;
+}
+.header-adress {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  color: var(--color-paragraph);
+  display: flex;
+}
+
+.adress-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  color: var(--color-paragraph);
+  margin-left: 50px;
+}
+.adress-item:hover,
+.adress-item:focus {
+  color: var(--basic-color);
+}
+
+.main-heading {
+  background-color: #2f303a;
+}
+.main-container {
+  padding-top: 200px;
+  padding-left: auto;
+  padding-right: auto;
+  padding-bottom: 200px;
+  text-align: center;
+}
+
+.main-caption {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: calc(60 / 44);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+  max-width: 696px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.main-btn {
+  background-color: var(--basic-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding: 10px 32px ;
+}
+.main-btn {
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.benefits {
+  display: flex;
+  padding-left: 0;
+  text-align: left;
+  gap: 30;
+}
+.benefits-heading {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-heading);
+}
+
+.benefits-paragraph {
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: var(--color-paragraph);
+  margin-top: 10px;
+  max-width: 270px;
+}
+.developer-example {padding-bottom: 94px;}
+.developer-list {
+  display: flex;
+  gap: 30px;
+  padding-left: 0;
+}
+.developer-list {
+  width: calc((100% - 60px) / 3);
+}
+
+.developer-heading {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--color-heading);
+  margin-bottom: 50px;
+}
+.team-caption {padding: 30px 68px;
+text-align: center;}
+.team-list {
+  display: flex;
+  gap: 30px;
+  padding-left: 0;
+}
+.team-list {
+  width: calc((100% - 90px) / 4);
+}
+.team-header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--color-heading);
+  margin-bottom: 50px;
+}
+
+.team-heading {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  letter-spacing: 0.03em;
+  color: var(--color-heading);
+  
+}
+
+.team-paragraph {
+  font-style: normal;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  letter-spacing: 0.03em;
+  color: var(--color-paragraph);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.footer-list {
+  background-color: #2f303a;
+}
+footer {padding-top: 60px;
+  padding-bottom: 60px;}
+
+.footer-adress {
+  padding-left: 0;
+  
+}
+.logo-footer {font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+  color: #2196f3;
+  }
+
+
+.logo-footer > span {
+  color: #ffffff; margin-bottom: 20px;
+}
+.footer-logo{margin-bottom: 20px;}
+.footer-item {
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 9px;
+}
+.footer-item:last-child {margin-bottom: 0;}
+.address-link {
+  color: #ffffff;
+
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: var(--basic-color);
+}
+
+.footer-list:hover,
+.footer-list:focus {
+  color: var(--basic-color);
+}
+.header-portfolio {border-bottom: 1px solid #ECECEC;;}
+
+.list-btn {
+}
+.list-button {
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+  gap: 8px;
+}
+.btn-item {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+  padding: 6px 22px;
+  gap: 8px;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
+.btn-item:first-child {
+  margin-left: 0px;
+}
+.btn-item:hover,
+.btn-item:focus {
+  background-color: var(--basic-color);
+  color: #ffffff;
+}
+
+.list-example {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding-left: 0;
+}
+.border-paragraph {
+  padding-right: 24px;
+  padding-left: 24px;
+  padding-bottom: 20px;
+  border: 1px solid #eeeeee;
+}
+.example-heading {
+  font-size: 18px;
+  line-height: calc(36 / 18);
+  letter-spacing: 0.06em;
+  color: var(--color-heading);
+  margin-top: 20px;
+  margin-bottom: 4px;
+}
+
+.example-paragraph {
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  letter-spacing: 0.03em;
+  color: var(--color-paragraph);
+
+}
