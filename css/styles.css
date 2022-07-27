@@ -65,18 +65,17 @@ img {
   line-height: calc(31 / 26);
   letter-spacing: 0.03em;
   color: #2196f3;
-  margin-right: 93px;
+  margin-right: 83px;
 }
 .logo > span {
   color: #000000;
 }
 .header-list {
   display: flex;
-  gap: 50px;
+  gap: 30px;
 }
-.header-item:not:last-child {
-  margin-right: 50px;
-}
+.header-list {padding-left: 0;}
+
 .header-link {
   font-weight: 500;
   font-size: 14px;
@@ -86,6 +85,7 @@ img {
   padding: 10px;
   color: var(--color-heading);
 }
+
 .header-link:not:last-child {
   margin-right: 50px;
 }
@@ -114,6 +114,7 @@ img {
   color: var(--color-paragraph);
   margin-left: 50px;
 }
+.
 .adress-item:hover,
 .adress-item:focus {
   color: var(--basic-color);
@@ -121,8 +122,6 @@ img {
 
 .main-heading {
   background-color: #2f303a;
-}
-.main-container {
   padding-top: 200px;
   padding-left: auto;
   padding-right: auto;
@@ -169,6 +168,7 @@ img {
   gap: 30px;
  
 }
+.section-benefits {padding-top: 94px;}
 .benefits-heading {
   font-weight: 700;
   font-size: 14px;
