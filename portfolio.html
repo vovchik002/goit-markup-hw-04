@@ -21,36 +21,39 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="header header-portfolio">
-      <div class="container">
-        <a class="logo link" href="/">Web<span>Studio</span></a>
-        <nav class="header-logo">
-          <ul class="header-list list">
-            <li class="header-item list">
-              <a href="./index.html" class="header-link link">Студія</a>
-            </li>
-            <li class="header-item">
-              <a href="./portfolio.html" class="header-link link">Портфоліо</a>
-            </li>
-            <li class="header-item">
-              <a href="#footer" class="header-link link">Контакти</a>
-            </li>
-          </ul>
-        </nav>
-        <div class="header-connect">
-          <ul class="header-adress list">
-            <li class="adress-item">
-              <a href="mailto:info@devstudio.com" class="link"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li class="adress-item">
-              <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
-            </li>
-          </ul>
-        </div>
-
-      </div>
+    <header class="header">
+      <div class="container ">
+      <a class="logo link" href="/">Web<span>Studio</span></a>
+      <nav class="header-logo">
+        <ul class="header-list list">
+          <li class="header-item list">
+            <a href="./index.html" class="header-link link ">Студія</a>
+          </li>
+          <li class="header-item">
+            <a href="./portfolio.html" class="header-link link">Портфоліо</a>
+          </li>
+          <li class="header-item">
+            <a href="#footer" class="header-link link">Контакти</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header-connect">
+      <ul class="header-adress list">
+        <li class="adress-item">
+          <a href="mailto:info@devstudio.com" class="link"><svg class="adress-icon" width=16 height=12>
+              <use href="./image/symbol-defs.svg#icon-envelope-hover"></use>
+            </svg>info@devstudio.com</a
+          >
+        </li>
+        <li class="adress-item">
+          <a href="tel:+380961111111" class=" link"><svg class="adress-icon" width=16 height=12>
+            <use href="./image/symbol-defs.svg#icon-smartphone"></use>
+          </svg>+38 096 111 11 11</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+    </header>
     </header>
     <main>
       <section class="list-btn section-size">
@@ -143,10 +146,11 @@
     </main>
     <footer class="footer-list" id="footer">
       <div class="container">
+      <div>
         <div class="footer-logo">
       <a href="./index.html" class="logo-footer link">Web<span>Studio</span></a>
     </div>
-      <address>
+      
         <ul class="list footer-adress">
           <li class="footer-item">
             <a 
@@ -166,6 +170,35 @@
           </li>
         </ul>
       </address>
+    </div>
+     <div class="social-link-footer">
+      <h3 class="social-connect-heading" >Приєднуйтесь </h3>
+        <ul class="list social-connect-list">
+          <li class=""><a href="" class="soc-item-footer link">
+            <svg class="soc-item-icon" width=20 height=20px>
+              <use href="./image/symbol-defs.svg#icon-instagram"></use>
+            </svg>
+          </a></li>
+          <li class=""><a href="" class="soc-item-footer link">
+            <svg class="soc-item-icon" width=20 height=20px>
+              <use href="./image/symbol-defs.svg#icon-twitter"></use>
+            </svg>
+          </a></li>
+          <li class=""><a href="" class="soc-item-footer link">
+            <svg class="soc-item-icon" width=20 height=20>
+              <use href="./image/symbol-defs.svg#icon-facebook"></use>
+            </svg>
+          </a></li>
+          <li class=""><a href="" class="soc-item-footer link">
+            <svg class="soc-item-icon" width=20 height=20>
+              <use href="./image/symbol-defs.svg#icon-linkedin"></use>
+            </svg>
+          </a></li>
+        </ul>
+      
+     </div>
+     </div>
+    
     </div>
     </footer>
   </body>
