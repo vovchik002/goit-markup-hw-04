@@ -253,6 +253,7 @@ img {
 .team-caption {
   padding: 30px 8px;
   text-align: center;
+  background-color: #FFFFFF;
 }
 .team-list {
   display: flex;
